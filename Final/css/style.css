@@ -4,7 +4,7 @@ body {
     font: 400 15px/1.8 serif;
 }
 
-.img-1, .img-2, .img-3, .img-4 {
+.img-1, .img-2, .img-3, .img-4, {
     position: relative;
     opacity: 0.80;
     background-repeat: no-repeat;
@@ -52,6 +52,7 @@ body {
 
 .description-container {
     position: relative;
+    background-color: #D0F0FF
 }
 
 .description {
@@ -78,7 +79,7 @@ h3 {
 
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .img-1, .img-2, .img-3, .img-4{
         background-attachment: scroll;
     }
 }
