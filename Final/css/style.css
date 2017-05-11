@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    color: black;
+    font: 400 15px/1.8 serif;
+}
+
+.img-1, .img-2, .img-3, .img-4 {
+    position: relative;
+    opacity: 0.80;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1 {
+    min-height: 100vh;
+    background-image: url("images/final-headshot.jpg");
+}
+
+.img-2 {
+    min-height: 100vh;
+    background-image: url("images/final-kaimin.jpg");
+}
+
+.img-3 {
+    min-height: 100vh;
+    background-image: url("images/final-golf.jpg");
+}
+
+.img-4 {
+  min height: 100vh;
+  background-image: url("images/final-hoopfest.jpg");
+}
+
+.hero {
+    padding: 50px 80px;
+    color: ##900C3F;
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: ##900C3F;
+    text-align: center;
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: black;
+    background-color: ##900C3F;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption span.border {
+    padding: 18px;
+    color: white;
+    background-color: ##900C3F;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: black;
+    font: 20px "Lato", sans-serif;
+    letter-spacing: 5px;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
