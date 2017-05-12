@@ -87,3 +87,22 @@ h3 {
         background-attachment: scroll;
     }
 }
+
+aside .aside-head {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+}
+
+aside .aside-text {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+aside .aside-text p {
+    font-style: italic;
+    padding: 0.25em 1em;
+    margin: 0;
+    text-align: left;
+}
