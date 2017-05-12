@@ -90,24 +90,11 @@ h3 {
 
 aside.content-side {
     float: right;
-    padding: 0;
     width: 25%;
-    color: #fff;
-    background-color: black;
-    font-weight: lighter;
-  }
-
-aside .aside-head {
-    font-size: 1.5em;
-    text-align: center;
-    padding: 1em;
     background-color: white;
-}
-
-aside .aside-text {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
+    font-weight: lighter;
+    color: black;
+  }
 
 aside .aside-text p {
     font-style: italic;
