@@ -103,7 +103,7 @@ aside .aside-text p {
     text-align: left;
 }
 .menu-container {
-    background-color: #b4b4b4;
+    background-color: black;
     margin: 0;
     padding: 0;
     position: sticky;
@@ -115,12 +115,12 @@ aside .aside-text p {
     padding-right: 2.5em;
     text-align: left;
     text-decoration: none;
-    color: #507aa6;
+    color: white;
 }
 
 .menuitem:hover, .dropdown:hover {
     color: #fff;
-    background-color: #507aa6;
+    background-color: black;
 }
 
 .dropdown {
