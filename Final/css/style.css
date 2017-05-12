@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: black;
     font: 400 15px/1.8 serif;
+    text-transform: uppercase;
 }
 
 .img-1, .img-2, .img-3, .img-4 {
@@ -117,7 +118,7 @@ header {
 .menu-item, .site-name {
     display: inline-block;
     margin: 0 0;
-    /*min-width: 8em;*/
+
     text-align: left;
     background-color: #26272b;
     padding: 0.5em 1em;
@@ -166,7 +167,7 @@ header {
     text-align: left;
     margin: 0;
     padding: 0.5em 1em 0.5em 1em;
-    /*min-width: 7em;*/
+
 }
 
 .dropdown-item:hover, .dropdown-item:hover a {
