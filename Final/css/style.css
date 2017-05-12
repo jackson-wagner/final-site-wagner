@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: black;
     font: 400 15px/1.8 serif;
-    text-transform: uppercase;
+    text-transform: capitalize;;
 }
 
 .img-1, .img-2, .img-3, .img-4 {
